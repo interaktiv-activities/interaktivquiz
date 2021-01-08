@@ -1,6 +1,7 @@
 const startButton = document.getElementById('start-btn')
 const nextButton = document.getElementById('next-btn')
 const restartButton = document.getElementById('restart-btn')
+const returnButton = document.getElementById('return-btn')
 const startText = document.getElementById('start-text')
 const startImage = document.getElementById('robot-start')
 const questionContainerElement = document.getElementById('question-container')
@@ -26,6 +27,7 @@ function startGame() {
   startText.classList.add('hide')
   startImage.classList.add('hide')
   restartButton.classList.add('hide')
+  returnButton.classList.add('hide')
   passEndPage.classList.add('hide')
   failEndPage.classList.add('hide')
   questionContainerElement.classList.remove('hide')
@@ -75,6 +77,7 @@ function selectAnswer(e) {
     if (countRightAnswers > 7) {
       passEndPage.classList.remove('hide')
       questionContainerElement.classList.add('hide')
+      returnButton.classList.remove('hide')
     }
     else{
       restartButton.classList.remove('hide')
