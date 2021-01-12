@@ -72,6 +72,7 @@ body {
 
 .btn:hover {
   border-color: transparent;
+  background-image: url(BoardBorder.png);
 }
 
 .btn.correct {
@@ -94,26 +95,42 @@ body {
 
 .start-btn {
   margin-top: 10px;
-  height: 35px;
   width: 120px;
+  transition: width 100ms ease-in-out, height 100ms ease-in-out;
+}
+
+.start-btn:hover{
+  width: 140px;
 }
 
 .next-btn {
   margin-top: 10px;
-  height: 35px;
   width: 120px;
+  transition: width 100ms ease-in-out, height 100ms ease-in-out;
+}
+
+.next-btn:hover {
+  width: 140px;
 }
 
 .restart-btn {
   margin-top: 10px;
-  height: 72px;
   width: 200px;
+  transition: width 100ms ease-in-out, height 100ms ease-in-out;
+}
+
+.restart-btn:hover {
+  width: 220px;
 }
 
 .return-btn {
   margin-top: 10px;
-  height: 72px;
   width: 200px;
+  transition: width 100ms ease-in-out, height 100ms ease-in-out;
+}
+
+.return-btn:hover {
+  width: 220px;
 }
 
 .controls {
