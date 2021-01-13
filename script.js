@@ -137,7 +137,7 @@ const questions = [
   {
     question: 'Which among the following qualifications are not needed for you to be part of the Dean’s List?',
     answers: [
-      { text: 'Take a total load of at least 15 academic units', correct: false },
+      { text: 'Take a total load of at least 12 academic units', correct: false },
       { text: 'No record of a major offense or academic dishonesty', correct: false },
       { text: 'No grade below 3.000 in an academic course', correct: true },
       { text: 'No failure or R in any course, no deferred grade', correct: false }
